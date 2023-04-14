@@ -2,7 +2,7 @@
 
 use function PHPSTORM_META\type;
 
-$conexion=mysqli_connect("localhost","root","","recluta");
+$conexion=mysqli_connect("192.9.155.8","Ricardo2597@","Ricardo2597@","tecnocodeproyecto");
 
 
 
