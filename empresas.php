@@ -25,7 +25,7 @@ class Empresas{
 
     }  
     public function conectarBD(){
-        $con=mysqli_connect ("localhost","root","","recluta")or die("PROBLEMAS CON LA CONEXION DE BD");
+        $con=mysqli_connect ("localhost","root","Ricardo2597@","tecnocodeproyecto")or die("PROBLEMAS CON LA CONEXION DE BD");
             return $con;                      
     }
     public function cerrarBD(){
