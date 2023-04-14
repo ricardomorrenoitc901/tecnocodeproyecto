@@ -29,7 +29,7 @@ mysqli_close($conexion);
 
 <?php
 
-$connection = mysqli_connect("localhost","root","","recluta");
+$connection = mysqli_connect("localhost","root",Ricardo2597@","tecnocodeproyecto");
 session_start();
 if(!empty($_SESSION['active'])){
     header('location: indexAdmin.php');
